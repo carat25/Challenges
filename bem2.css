@@ -1,0 +1,31 @@
+.navbar {
+    border: 1px solid black;
+}
+
+.navbar_group {
+    display: flex;
+    justify-content: space-between;
+    min-height: 50px;
+    align-items: center;
+   
+}
+
+.navbar_group-div {
+    display: flex;
+    padding: 0 20px;
+    justify-content: space-around;
+    min-width: 300px;
+}
+
+
+.navbar_second {
+    border: 1px solid black;
+}
+
+.navbar_second_group {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 50px;
+}
+

@@ -1,0 +1,87 @@
+.container {
+    display:flex;
+    justify-content: center;
+}
+
+.singlecontainer {
+    display:flex;
+    justify-content: flex-end;
+}
+
+.card {
+    display:flex;
+    height: 150px;
+    width: 150px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card1 {
+    background-color: lightblue;
+}
+
+.card2 {
+    background-color: orange;
+}
+
+.card3 {
+    background-color:hotpink;
+}
+
+.maincontainer {
+    display: flex;
+    justify-content: center;
+}
+
+.container2 {
+    display:flex;
+    justify-content: flex-start;
+    width:500px;
+    flex-wrap: wrap;
+}
+.card4 {
+    background-color: lightblue;
+}
+
+.card5 {
+    background-color: orange;
+}
+
+.card6 {
+    background-color:hotpink;
+}
+
+.card7 {
+    background-color:red;
+}
+
+.maincontainer2 {
+    display: flex;
+    justify-content: center;
+}
+
+.container3 {
+    display:flex;
+    justify-content: flex-start;
+    width:500px;
+    flex-wrap: wrap;
+}
+.card8 {
+    background-color: lightblue;
+}
+
+.card9 {
+    background-color: orange;
+}
+
+.card10 {
+    background-color:hotpink;
+}
+
+.card11 {
+    background-color:red;
+}
+
+.card12 {
+    background-color: lightgreen;
+}

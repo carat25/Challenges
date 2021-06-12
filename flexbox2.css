@@ -1,0 +1,46 @@
+.maincontainer2 {
+    display:flex;
+    justify-content: center;
+}
+
+.card {
+    display:flex;
+    height: 150px;
+    width: 150px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container3 {
+    display:flex;
+    justify-content: space-around;
+    width:460px;
+    flex-wrap: wrap;
+}
+
+.card8 {
+    background-color: lightblue;
+}
+
+.card9 {
+    background-color: orange;
+}
+
+.card10 {
+    background-color:hotpink;
+}
+
+.space-between {
+
+    justify-content: space-between;
+}
+
+.card11 {
+    background-color:red;
+}
+
+.card12 {
+    background-color: lightgreen;
+    display: flex;
+
+}

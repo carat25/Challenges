@@ -1,0 +1,30 @@
+.navbar {
+    border: 1px solid black;
+}
+
+
+
+.navbar_one{
+    &__div {
+        &--display {
+            display: flex;
+        }
+        &--direction {
+            flex-direction: row;
+        }
+        &--around {
+            justify-content: space-around;
+        }
+        &--between {
+            justify-content: space-between;
+        }
+        &--padding {
+            padding: 10px 20px;
+        }
+        &--width {
+            min-width: 30%;
+        }
+    }
+
+}
+

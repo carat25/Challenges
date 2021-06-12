@@ -1,0 +1,126 @@
+.container {
+    display: grid;
+    grid-template-areas:
+    "artists artists artists artists artists books books"
+    "lp lp evanescence evanescence evanescence sheldon sheldon"
+    "lp lp evanescence evanescence evanescence sheldon sheldon"
+    "mars mars evanescence evanescence evanescence sheldon sheldon"
+    "mars mars goo schair schair  sheldon sheldon";
+    grid-gap: 10px;
+}
+
+
+.item {
+    border: 1px solid black;
+    /* display: flex;
+    justify-content:flex-start;
+    align-items:flex-start; */
+    border-radius: 4px 4px;
+    /* min-height: 50px; */
+    font-family: arial;
+}
+
+.cell1 {
+    grid-area: artists;
+    text-align: center;
+}
+
+.cell2 {
+    grid-area: books;
+    text-align: center;
+}
+
+/* Cell3 - LinkinPark */
+
+.cell3_desc {
+    display: flex;
+    flex-direction: column;
+}
+
+.cell3_img {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.cell3 {
+    grid-area: lp;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-height: 300px;
+    min-width: 150px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Cell4 - Evanescence */
+
+
+.cell4 {
+    grid-area: evanescence;
+    padding: 10px;
+    flex-direction: column;
+    max-height: 300px;
+    min-width: 150px;
+
+}
+
+.cell4_img {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Cell5 - Sidney Sheldon */
+
+.cell5 {
+    grid-area: sheldon;
+    padding: 10px;
+}
+
+/* Cell6 - 30 sec to mars */
+
+.cell6 {
+    grid-area: mars;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+/* Cell7 - Goo goo dolls */
+
+.cell7 {
+    grid-area: goo;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+/* Cell8 - Silverchair */
+
+.cell8_desc {
+    display: flex;
+    flex-direction: column;
+}
+
+.cell8_desc2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cell8 {
+    grid-area: schair;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-height: 200px;
+    min-width: 150px;
+    justify-content: center;
+    align-items: center;
+}
+

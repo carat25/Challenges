@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    justify-content: center;
+    height: 60px;
+}
+
+.inner {
+    display: flex;
+    justify-content:flex-start;
+    flex-wrap:wrap;
+    width: 20px;
+    
+}
+.inner-2 {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 20px;
+   
+}
+
+.box {
+    border: 1px solid black;
+}

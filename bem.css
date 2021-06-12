@@ -1,0 +1,35 @@
+section {
+    border: 1px solid black;
+}
+
+.section__group {
+    font-family: arial;
+}
+
+.section__h1--blue {
+    color: blue;
+}
+
+.section__p--red {
+    color: red;
+}
+
+.section__li--bullet {
+    list-style-type: none;
+}
+
+.section__p--underline {
+    text-decoration: underline;
+}
+
+.main__p--bold {
+    font-weight: bold;
+}
+
+.main__p--coral {
+    color: coral;
+}
+
+.main__p--brown {
+    color: brown;
+}

@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    height: 760px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    height: 250px;
+    width: 250px;
+    border: 1px solid black;
+    align-items: center;
+}
