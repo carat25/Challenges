@@ -1,0 +1,36 @@
+body {
+    font-size: 16px;
+}
+
+
+
+input:optional {
+    border-radius: 5px 6px;
+    background-color: lightblue;
+    border: 1px solid black;
+}
+
+input:disabled {
+    border-radius: 5px 6px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+input:required {
+    border: 1px solid red;
+    background-color: lightblue;
+    border-radius: 5px 6px;
+}
+
+button:disabled {
+    border-radius: 5px 6px;
+    border: 1px solid black;
+    color: black;
+}
+
+button:enabled {
+    border-radius: 5px 6px;
+    border: 1px solid black;
+    color: black;
+    background-color: lightblue;
+}

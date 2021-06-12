@@ -1,0 +1,26 @@
+body {
+    font-family: arial;
+    width: 500px;
+}
+
+.container {
+    background-color: lightgreen;
+    border: 2px solid coral;
+    padding: 20px 0px 20px 1px;
+}
+
+.border {
+background-color: hotpink;
+border: 2px solid coral;
+padding-bottom: 20px;
+}
+
+h2 {
+    margin-left: 20px;
+}
+
+p {
+    margin-left: 50px;
+}
+
+

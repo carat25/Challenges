@@ -1,0 +1,22 @@
+#firstheader {
+    border: 3px green dashed;
+    width: 800px;
+}
+
+#secondheader {
+    border: 2px coral solid;
+    width: 802px;
+}
+
+#centerheader {
+    text-align: center;
+}
+
+.linethrough {
+    text-decoration:line-through;
+    color: blue;
+}
+
+.alignedright {
+    text-align:right;
+}

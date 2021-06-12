@@ -1,0 +1,30 @@
+div {
+    border: 1px black solid;
+    font-family: arial;
+}
+
+ div > h1 {
+    color: blue;
+}
+
+div > p {
+    color: red;
+    text-decoration: underline;
+
+}
+
+div > ul {
+    list-style: none;
+}
+
+div ~ p {
+    color: brown;
+}
+
+div + p {
+    color: coral;
+    font-weight: bold;
+}
+
+
+

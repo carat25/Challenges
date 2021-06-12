@@ -1,0 +1,21 @@
+body {
+    text-align: center;
+}
+
+.blueteam {
+    color: blue;
+}
+
+#blackteam {
+    color: black;
+    text-decoration: underline;
+}
+
+.redteam {
+    color: red;
+    font-weight: bold;
+}
+
+.arialteam {
+    font-family: arial;
+}

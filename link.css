@@ -1,0 +1,13 @@
+
+a:visited {
+    color: brown;
+}
+
+a:hover {
+    color: coral;
+}
+
+a:active {
+    color: white;
+    background-color: black;
+}

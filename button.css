@@ -1,0 +1,233 @@
+h1 {
+    font-family: lucida grande;
+}
+
+.btn {
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 9px 14px;
+    border: none;
+}
+
+/* Buttons */
+
+.btn-primary {
+    background-color: rgba(50, 120, 255);
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: rgba(15, 100, 210);
+    color: white;
+    /* border-color: 1px rgba(30, 140, 255); */
+}
+
+.btn-secondary {
+    background-color: rgba(120, 130, 140);
+    color: white;
+}
+
+.btn-secondary:hover {
+    background-color: rgba(80, 90, 100);
+    color: white;
+}
+
+.btn-success {
+    background-color: rgba(10, 170, 10);
+    color: white;
+}
+
+.btn-success:hover {
+    background-color: rgba(60, 133, 56);
+    color: white;
+}
+
+.btn-danger {
+    background-color: rgba(223, 22, 80);
+    color: white;
+}
+
+.btn-danger:hover {
+    background-color: rgba(194, 43, 45);
+    color: white;
+}
+
+.btn-warning {
+    background-color: rgba(255, 200, 50);
+}
+
+.btn-warning:hover {
+    background-color: rgba(229, 177, 33);
+}
+
+.btn-info {
+    background-color: rgba(50, 170, 200);
+    color: white;
+}
+
+.btn-info:hover {
+    background-color: rgba(90, 150, 170);
+    color: white;
+}
+
+.btn-light {
+    background-color: rgba(240, 240, 245);
+}
+
+.btn-light:hover {
+    background-color: rgb(230, 230, 230);
+}
+
+.btn-dark {
+    background-color: rgba(60, 60, 70);
+    color: white;
+}
+
+.btn-dark:hover {
+    background-color: rgba(40, 40, 50);
+    color: white;
+}
+
+.btn-link {
+    font-family: Lucida Grande;
+}
+
+.btn-link:link {
+    text-decoration: none;
+    color: rgba(50, 120, 255);
+}
+
+.btn-link:hover {
+    text-decoration: underline;
+    color: rgba(15, 100, 210);
+} 
+
+
+ /* Outline buttons */
+
+.btn-outline-primary {
+    color: rgba(50, 120, 255);
+    background-color: white;
+    border: 1px solid rgba(50, 120, 255);
+    padding: 8px 13px;
+}
+
+.btn-outline-primary:hover {
+    background-color: rgba(50, 120, 255);
+    color:white;
+}
+
+.btn-outline-secondary {
+    color: rgba(120, 130, 140);
+    background-color: white;
+    border: 1px solid rgba(120, 130, 140);
+    padding: 8px 13px;
+}
+
+.btn-outline-secondary:hover {
+    background-color: rgba(120, 130, 140);
+    color: white;
+}
+
+.btn-outline-success {
+    color: rgba(10, 170, 10);
+    background-color: white;
+    border: 1px solid rgba(10, 170, 10);
+    padding: 8px 13px;
+}
+
+.btn-outline-success:hover {
+    background-color: rgba(10, 170, 10);
+    color: white;
+}
+
+.btn-outline-danger {
+    color: rgba(223, 22, 80);
+    background-color: white;
+    border: 1px solid rgba(223, 22, 80);
+    padding: 8px 13px;
+}
+
+.btn-outline-danger:hover {
+    background-color: rgba(223, 22, 80);
+    color: white;
+}
+
+.btn-outline-warning {
+    color: rgba(255, 200, 50);
+    background-color: white;
+    border: 1px solid rgba(255, 200, 50);
+    padding: 8px 13px;
+}
+
+.btn-outline-warning:hover {
+    background-color: rgba(255, 200, 50);
+    color: black;
+}
+
+.btn-outline-info {
+    color: rgba(50, 170, 200);
+    background-color: white;
+    border: 1px solid rgba(50, 170, 200);
+    padding: 8px 13px;
+}
+
+.btn-outline-info:hover {
+    background-color: rgba(50, 170, 200);
+    color: white;
+}
+
+.btn-outline-light {
+    color: rgba(245, 245, 250);
+    background-color: white;
+    border: 1px solid rgba(245, 245, 250);
+    padding: 8px 13px;
+}
+
+.btn-outline-light:hover {
+    color: black;
+    background-color: rgba(240, 240, 245);
+}
+
+.btn-outline-dark {
+    color: rgba(60, 60, 70);
+    background-color: white;
+    border: 1px solid rgba(60, 60, 70);
+    padding: 8px 13px;
+}
+
+.btn-outline-dark:hover {
+    color: white;
+    background-color: rgba(60, 60, 70);
+}
+
+
+/* Button Sizes */
+
+.btn-lg {
+    font-size: 20px;
+    padding: 12px 22px;
+}
+
+.btn-sm {
+    font-size: 12px;
+    padding: 8px 10px;
+}
+
+/* Active State */
+
+.btn-link:active {
+    text-decoration: none;
+    font-family: Lucida Grande;
+    background-color: rgba(15, 100, 210);
+    color: white;
+    border: 2px solid rgba(120, 190, 230);
+}
+
+
+/* Disabled state */
+
+.disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}

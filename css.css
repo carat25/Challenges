@@ -1,0 +1,31 @@
+body {
+    font-family: Arial;
+}
+
+h2{
+    color: coral;
+    text-align: center;
+    font-weight: lighter;
+}
+
+h4 {
+    color: green;
+}
+
+header p {
+    text-align:right;
+}
+
+ul {
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 10px powderblue;
+    list-style: none;
+    
+}
+
+.abc{
+    font-style: italic;
+    text-decoration:underline;
+}
+
